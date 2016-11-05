@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.intarsys.opensource</groupId>
+  <artifactId>jPod</artifactId>
+  <version>5.5.1</version>
+  <packaging>jar</packaging>
+
+  <name>jPod</name>
+  <description>A library for reading, writing and manipulating PDF files.</description>
+  <url>http://opensource.intarsys.de/home/en/index.php?n=JPod.HomePage</url>
+
+  <organization>
+    <name>intarsys consulting GmbH</name>
+    <url>http://www.intarsys.de</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>http://www.opensource.org/licenses/BSD-3-Clause</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>intarsys</id>
+      <name>intarsys support</name>
+      <email>support@intarsys.de</email>
+    </developer>
+  </developers>
+
+  <!-- For dependencies see:
+       http://opensource.intarsys.de/home/en/index.php?n=JPodRenderer.DevelopersGuide
+  -->
+  <dependencies>
+    <dependency>
+      <groupId>de.intarsys.opensource</groupId>
+      <artifactId>iscwt</artifactId>
+      <version>5.5</version>
+      <type>jar</type>
+    </dependency>
+
+    <dependency>
+      <groupId>de.intarsys.opensource</groupId>
+      <artifactId>isrt</artifactId>
+      <version>4.10</version>
+      <type>jar</type>
+    </dependency>
+
+    <dependency>
+      <groupId>de.intarsys.opensource</groupId>
+      <artifactId>jbig2</artifactId>
+      <version>5.5.1</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <connection>not available</connection>
+    <url>http://sourceforge.net/projects/jpodlib/files/jpod/5.5/jPod.5.5.1.20120711.zip/download</url>
+  </scm>
+</project>
