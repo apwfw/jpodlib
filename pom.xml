@@ -6,16 +6,10 @@
   <groupId>de.intarsys.opensource</groupId>
   <artifactId>jPod</artifactId>
   <version>5.5.1</version>
-  <packaging>jar</packaging>
 
   <name>jPod</name>
-  <description>A library for reading, writing and manipulating PDF files.</description>
-  <url>http://opensource.intarsys.de/home/en/index.php?n=JPod.HomePage</url>
-
-  <organization>
-    <name>intarsys consulting GmbH</name>
-    <url>http://www.intarsys.de</url>
-  </organization>
+  <description>Fork a library for reading, writing and manipulating PDF files.</description>
+  <url>https://github.com/apwfw/jpodlib</url>
 
   <licenses>
     <license>
@@ -27,15 +21,24 @@
 
   <developers>
     <developer>
-      <id>intarsys</id>
-      <name>intarsys support</name>
-      <email>support@intarsys.de</email>
+      <id>apwfw</id>
+      <name>Vitalii Naoumov</name>
+      <email>vitalii.naoumov@gmail.com</email>
     </developer>
   </developers>
 
-  <!-- For dependencies see:
-       http://opensource.intarsys.de/home/en/index.php?n=JPodRenderer.DevelopersGuide
-  -->
+  <scm>
+    <connection>
+      scm:git:git@github.com:apwfw/jpodlib.git
+    </connection>
+    <developerConnection>
+      scm:git:git@github.com:apwfw/jpodlib.git
+    </developerConnection>
+    <url>
+      scm:git:git@github.com:apwfw/jpodlib.git
+    </url>
+  </scm>
+
   <dependencies>
     <dependency>
       <groupId>de.intarsys.opensource</groupId>
@@ -59,8 +62,4 @@
     </dependency>
   </dependencies>
 
-  <scm>
-    <connection>not available</connection>
-    <url>http://sourceforge.net/projects/jpodlib/files/jpod/5.5/jPod.5.5.1.20120711.zip/download</url>
-  </scm>
 </project>
